@@ -1,0 +1,43 @@
+body{
+	font-family: 'Mukta', sans-serif;
+	background-color: rgba(25, 109, 194, 0.46);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;;
+    align-items: center;
+}
+
+#conteneurCalculatrice{
+	width: 60%;
+	height: 400px;
+}
+
+#ecran{
+	width: 99.5%;
+	height: 60px;
+	margin-bottom: 24px;
+	border-radius: 2px;
+	font-size: 45px;
+}
+
+#clavier{
+	display: flex;
+	flex-direction: column;
+}
+
+.ligne{
+	display: flex;
+	justify-content: center;
+}
+
+span{
+	width: 100%;
+}
+
+button{
+	width: 100%;
+	height: 60px;
+}
+h1{
+
+}
